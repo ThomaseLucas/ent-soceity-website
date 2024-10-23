@@ -1,0 +1,45 @@
+#container{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3em;
+    font-weight: bold;
+    background: palegreen;
+    height: auto;
+    width: auto;
+    align-content: center;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-decoration: none;
+
+}
+
+body{
+    background-color: purple;
+}
+
+.donate{
+    text-decoration: none;
+}
+
+.contact{
+    text-decoration: none;
+}
+
+.about{
+    text-decoration: none;
+}
+
+#contact{
+    text-align: center;
+    font-size: 300px;
+}
+
+#about{
+    text-align: center;
+    font-size: 300px;
+}
+
+#donate{
+    text-align: center;
+    font-size: 300px;
+}
