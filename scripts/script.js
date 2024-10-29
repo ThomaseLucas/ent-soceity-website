@@ -10,7 +10,7 @@ const images = [
   // Function to update the slider position
   function updateSlider() {
     // Calculate the translateX position based on the current index
-    const offset = -currentIndex * 1500; // Move by the width of each image
+    const offset = -currentIndex * 800; // Move by the width of each image
     slider.style.transform = `translateX(${offset}px)`;
   
     // Move to the next image index
