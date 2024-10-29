@@ -1,0 +1,111 @@
+#top {
+    background-color: #0072C6;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    /* Optional for visualizing content; remove if not needed */
+    content: "";
+    display: block;
+}
+
+header {
+    font-family: 'Helvetica', Courier, monospace;
+    font-size: 2em;
+    font-weight: bold;
+    background: white;
+    height: auto;
+    width: 100vw;
+    text-align: left;
+    padding-left: 20px;
+    box-shadow: 0 10px 10px -5px gray;
+    position: fixed;
+    top: 50px; /* Set below the #top bar */
+    z-index: 7;
+    margin: 0;
+}
+
+
+nav, .about, .contact, .donate {
+    z-index: 10;
+    text-decoration: none;
+    color: black;
+    transition: color    0.3s ease;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+}
+
+#banner_scroll{
+    width: 1500px; /* Fixed width */
+    height: 800px; /* Fixed height */
+    overflow: hidden; /* Hide overflow to show one image at a time */
+    background-color: #333;
+    border: 5px solid #0072C6;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 300px;
+
+}
+
+#slider{
+    display: flex;
+    transition: transform 1s ease;
+    width: auto;
+}
+
+#slider img{
+    width: 1500px;
+    height: 800px;
+    object-fit: cover;
+}
+
+body{
+    margin: 0;
+    padding-top: 75px;
+    height: 3000px;
+
+}
+
+.donate:hover, .contact:hover, .about:hover {
+    color: gray;
+}
+
+#container{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    background-color: white;
+    margin: 0 auto;
+    max-width: 55%;
+}
+
+#left{
+    font-family: 'Arial', sans-serif;
+    font-size: 1.2em;
+    line-height: 1.5;
+    color: #333;
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-left: 5px solid #0072C6;
+}
+
+#right{
+    font-family: 'Arial', sans-serif;
+    font-size: 1.2em;
+    line-height: 1.5;
+    color: #333;
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-left: 5px solid #0072C6;
+}
+
+#logo{
+    float: left;
+    margin: 10px;
+}
